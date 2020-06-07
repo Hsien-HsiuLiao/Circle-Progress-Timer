@@ -1,14 +1,29 @@
-<div class="row">
-<div id="timer"  onclick="move()">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+    <script type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 align=center>Animated Circle timer</h1>
+    </header>
+    <div class="row">
+      <div id="timer"  onclick="move()">
+        <div id="circle"></div>
+        <div id="clock" class="btn"><h1>25</h1></div>
+      </div>
+    </div>
+   </body>
 
-<div id="circle">
-  
-  </div>
-  <div id="clock" class="btn">25</div>
-</div>
   <!--
-  <div class="row"><div id="click">
-  <button class="w3-button w3-light-grey" onclick="move()">Click Me</button>
+  <div class="row">
+    <div id="click">
+    <button class="w3-button w3-light-grey" onclick="move()">Click Me</button>
     </div>
   </div>
--->
+  -->
